@@ -1,5 +1,7 @@
 # CMom Technical Test
 
+![Cryptocurrencies](https://raw.githubusercontent.com/CarmineRumma/CMOM-technical-test/master/screenshot.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
