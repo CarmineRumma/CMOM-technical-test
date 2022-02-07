@@ -21,7 +21,7 @@ export default function Layout(props: Props): ReactElement {
       >
         <NavLink to="/coins" className="item" >
           <Icon name="bitcoin" />
-          Coins
+          Cryptocurrencies
         </NavLink>
       </Menu>
       <Container className='main'>{props.children}</Container>

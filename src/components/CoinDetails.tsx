@@ -71,9 +71,11 @@ export default function CoinDetails(): ReactElement {
         <Grid.Row columns={3}>
           <Grid.Column>
             <List>
-              <List.Item>
-                <Label>Hashing Alghorithm {coin.hashing_algorithm}</Label>
-              </List.Item>
+              {coin.hashing_algorithm != null && (
+                <List.Item>
+                  <Label>Hashing Alghorithm {coin.hashing_algorithm}</Label>
+                </List.Item>
+              )}
               <List.Item>
                 <a href={coin.links.homepage[0]}>
                   <Label content="Website" icon="linkify" />
